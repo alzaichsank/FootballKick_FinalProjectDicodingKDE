@@ -65,20 +65,20 @@ KDE FINAL PROJECT
 ### syarat :
 Fitur yang harus ada pada aplikasi Anda adalah:
 1. Jadwal pertandingan berdasarkan liga.
- -Daftar pertandingan yang akan datang.
- -Daftar pertandingan yang sudah selesai.
- -Pencarian pertandingan.
- -Detail pertandingan.
- -Menambahkan reminder untuk pertandingan yang akan datang ke dalam calendar events. (opsional)
+ - Daftar pertandingan yang akan datang.
+ - Daftar pertandingan yang sudah selesai.
+ - Pencarian pertandingan.
+ - Detail pertandingan.
+ - Menambahkan reminder untuk pertandingan yang akan datang ke dalam calendar events. (opsional)
 
 2. Daftar tim berdasarkan liga.
- -Daftar tim.
- -Pencarian tim.
- -Detail tim dilengkapi dengan daftar dan detail para pemain.
+ - Daftar tim.
+ - Pencarian tim.
+ - Detail tim dilengkapi dengan daftar dan detail para pemain.
 
 3. Favorite.
- -Daftar tim favorite.
- -Daftar pertandingan favorite.
+ - Daftar tim favorite.
+ - Daftar pertandingan favorite.
 
 
 NB : 
