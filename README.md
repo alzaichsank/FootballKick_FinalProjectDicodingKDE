@@ -4,12 +4,12 @@ KDE FINAL PROJECT
 ## Preview
 1. next match
 
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/1_next.PNG" width=176/>&nbsp;
-
-
-2. last match
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/1_next.PNG" width=176/>&nbsp; 2. last match
 
 <img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/2_last.PNG" width=176/>&nbsp;
+
+
+
 
 
 3. search match
