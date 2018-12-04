@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ultra_tiny_font_size">8sp</dimen>
+    <dimen name="extra_tiny_font_size">10sp</dimen>
+    <dimen name="tiny_font_size">11sp</dimen>
+    <dimen name="small_font_size">12sp</dimen>
+    <dimen name="medium_font_size">14sp</dimen>
+    <dimen name="large_font_size">16sp</dimen>
+    <dimen name="extra_large_font_size">18sp</dimen>
+    <dimen name="not_so_huge_font_size">20sp</dimen>
+    <dimen name="not_so_huger_font_size">22sp</dimen>
+    <dimen name="huge_font_size">24sp</dimen>
+    <dimen name="very_huge_font_size">26sp</dimen>
+
+    <dimen name="no_offset_margin">0dp</dimen>
+    <dimen name="really_tiny_margin">1dp</dimen>
+    <dimen name="very_tiny_margin">2dp</dimen>
+    <dimen name="tiny_margin">4dp</dimen>
+    <dimen name="very_small_margin">6dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="small_margin_plus">9dp</dimen>
+    <dimen name="small_to_medium_margin">10dp</dimen>
+    <dimen name="small_to_medium_plus_margin">11dp</dimen>
+    <dimen name="medium_small_margin">12dp</dimen>
+    <dimen name="medium_small_plus_margin">14dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="medium_plus_margin">18dp</dimen>
+    <dimen name="medium_large_margin">20dp</dimen>
+    <dimen name="extra_medium_margin">22dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="larger_margin">28dp</dimen>
+    <dimen name="larger_margin_plus">30dp</dimen>
+    <dimen name="big_margin">32dp</dimen>
+    <dimen name="extra_big_margin">36dp</dimen>
+    <dimen name="extra_bigger_margin">38dp</dimen>
+    <dimen name="extra_big_margin_plus">40dp</dimen>
+    <dimen name="extra_bigger_margin_plus">44dp</dimen>
+    <dimen name="huge_margin">48dp</dimen>
+    <dimen name="more_huge_margin">56dp</dimen>
+    <dimen name="huger_margin">60dp</dimen>
+    <dimen name="extra_huger_margin">64dp</dimen>
+    <dimen name="very_extra_huge_margin">68dp</dimen>
+    <dimen name="very_huge_margin">72dp</dimen>
+    <dimen name="very_very_huge_margin">96dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="line_edit_text_height">1.5dp</dimen>
+
+    <!-- shapes -->
+    <dimen name="default_rounded_radius">2dp</dimen>
+    <dimen name="progress_bar_size">48dp</dimen>
+    <dimen name="progress_bar_tiny_size">32dp</dimen>
+
+    <dimen name="button_minimum_height">44dp</dimen>
+    <dimen name="small_button_minimum_height">28dp</dimen>
+
+    <dimen name="preview_image_size">48dp</dimen>
+    <dimen name="image_picker_selection_size">60dp</dimen>
+
+    <dimen name="otp_view_width">12dp</dimen>
+
+    <dimen name="gomerchant_sdk_qr_scanner_dimen">300dp</dimen>
+    <dimen name="gomerchant_sdk_qr_scanner_square_dimen">308dp</dimen>
+    <dimen name="gomerchant_sdk_go_to_y_axis">-63dp</dimen>
+    <dimen name="gomerchant_sdk_from_y_axis">426dp</dimen>
+    <dimen name="gomerchant_sdk_qr_scanner_bar_margin_top">-63dp</dimen>
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Football Kick</string>
+    <string name="match">Match </string>
+    <string name="team">Teams </string>
+    <string name="fav">Favorites </string>
+    <string name="cal">Calender </string>
+    <string name="turnOn_internet">Please Turn On Connection!</string>
+
+    <!--intent data-->
+    <string name="menuItem">menuItem</string>
+
+    <!--alert string-->
+    <string name="no_data">no data</string>
+    <string name="no_connection">no connection</string>
+
+    <!--button string-->
+    <string name="Refresh">Refresh</string>
+
+    <!--dummy data-->
+    <string name="dummy_date">Sun, 02 Sep 2018</string>
+    <string name="dummy_time">07:07</string>
+    <string name="dummy_score">0</string>
+    <string name="dummy_club">club name</string>
+    <string name="dummy_weight"> Weight(Kg)</string>
+    <string name="dummy_height">Height(M)</string>
+    <string name="dummy_name">Alza Ichsan K</string>
+    <string name="selectionText">Spanish La Liga</string>
+
+    <!--text data-->
+    <string name="dummy_vs">vs</string>
+    <string name="goals">Goals</string>
+    <string name="shots">Shots</string>
+    <string name="lineup">Lineups</string>
+    <string name="gk">Goal Keeper</string>
+    <string name="def">Defense</string>
+    <string name="mid">Midfield</string>
+    <string name="fw">Forward</string>
+    <string name="sub">Substitutes</string>
+    <string name="search">search</string>
+    <string name="overview">Overview</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_menu_match"
+        android:icon="@drawable/ic_calendar_24dp"
+        android:title="@string/match"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/main_menu_team"
+        android:icon="@drawable/ic_soccer_ball_variant_24dp"
+        android:title="@string/team"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/main_menu_match_favorites"
+        android:icon="@drawable/ic_star_24dp"
+        android:title="@string/fav"
+        app:showAsAction="always|withText" />
+
+</menu>
