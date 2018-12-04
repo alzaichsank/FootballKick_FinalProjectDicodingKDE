@@ -3,29 +3,51 @@ KDE FINAL PROJECT
 
 ## Preview
 1. next match
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/1_next.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/1_next.PNG" width=176/>&nbsp;
+
+
 2. last match
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/2_last.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/2_last.PNG" width=176/>&nbsp;
+
+
 3. search match
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/3_search_match.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/3_search_match.PNG" width=176/>&nbsp;
+
+
 4. detail next
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/4_detail_next.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/4_detail_next.PNG" width=176/>&nbsp;
+
+
 5. detail last
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/5_detail_last.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/5_detail_last.PNG" width=176/>&nbsp;
+
+
 6. list team
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/6_list_team.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/6_list_team.PNG" width=176/>&nbsp;
+
+
 7. search team
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/7_seach_team.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/7_seach_team.PNG" width=176/>&nbsp;
+
+
 8. detail team
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/8_detail_team.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/8_detail_team.PNG" width=176/>&nbsp;
+
+
 9. list player
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/9_list_player.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/9_list_player.PNG" width=176/>&nbsp;
+
+
 10. detail team
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/10_detail_team.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/10_detail_team.PNG" width=176/>&nbsp;
+
+
 11. fav match
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/11_fav_matches.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/11_fav_matches.PNG" width=176/>&nbsp;
+
+
 12. fav team
-<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/12_fav_teams.png" width=176/>&nbsp;
+<img src="https://github.com/alzaichsank/FootballKick_FinalProjectDicodingKDE/blob/master/preview/12_fav_teams.PNG" width=176/>&nbsp;
 
 
 ### syarat :
