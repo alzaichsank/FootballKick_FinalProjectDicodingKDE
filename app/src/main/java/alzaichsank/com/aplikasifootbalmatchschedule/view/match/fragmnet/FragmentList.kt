@@ -43,21 +43,21 @@ class FragmentList : Fragment(), MatchView {
     private val presenter = MatchPresenter(this)
     override fun showLoading() {
         progressbar.visible()
-        recyclerview.invisible()
+        recyclerviewMain.invisible()
         emptyDataView.invisible()
         noconectionView.invisible()
     }
 
     override fun hideLoading() {
         progressbar.gone()
-        recyclerview.visible()
+        recyclerviewMain.visible()
         emptyDataView.invisible()
         noconectionView.invisible()
     }
 
     override fun showEmptyData() {
         progressbar.gone()
-        recyclerview.invisible()
+        recyclerviewMain.invisible()
         if (presenter.isNetworkAvailable(context as Activity)) {
             emptyDataView.visible()
         } else {
@@ -157,8 +157,8 @@ class FragmentList : Fragment(), MatchView {
         }
     }
     private fun initContainer() {
-        recyclerview.layoutManager = LinearLayoutManager(context)
-        recyclerview.adapter = matchAdapter(type) { posistionData ->
+        recyclerviewMain.layoutManager = LinearLayoutManager(context)
+        recyclerviewMain.adapter = matchAdapter(type) { posistionData ->
             val dataIntent = getListAdapter()?.getDataAt(posistionData)
             val intent = Intent(context, DetailMatchActivity::class.java)
             intent.putExtra(DetailMatchActivity.INTENT_DETAIL, dataIntent)
@@ -248,5 +248,5 @@ class FragmentList : Fragment(), MatchView {
         }
     }
 
-    private fun getListAdapter(): matchAdapter? = (recyclerview?.adapter as? matchAdapter)
+    private fun getListAdapter(): matchAdapter? = (recyclerviewMain?.adapter as? matchAdapter)
 }

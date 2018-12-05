@@ -49,7 +49,7 @@ class MatchActivity : AppCompatActivity() {
                     Log.d("TAG", "ini team")
                     true
                 }
-                R.id.main_menu_match_favorites -> {
+                R.id.main_menu_favorites -> {
                     menuItem = 3
                     setFavorites()
                     changeToolbarTitle(getString(R.string.fav))
@@ -68,11 +68,11 @@ class MatchActivity : AppCompatActivity() {
     }
 
     private fun setTeam() {
-        loadFragment(FragmentTeam(), FragmentMatch.TAG)
+        loadFragment(FragmentTeam(), FragmentTeam.TAG)
     }
 
     private fun setFavorites() {
-        loadFragment(FragmentFavorites(), FragmentMatch.TAG)
+        loadFragment(FragmentFavorites(), FragmentFavorites.TAG)
     }
 
     private fun loadFragment(fragment: Fragment, tag: String?) {

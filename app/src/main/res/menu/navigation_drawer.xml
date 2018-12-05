@@ -14,7 +14,7 @@
         app:showAsAction="always|withText" />
 
     <item
-        android:id="@+id/main_menu_match_favorites"
+        android:id="@+id/main_menu_favorites"
         android:icon="@drawable/ic_star_24dp"
         android:title="@string/fav"
         app:showAsAction="always|withText" />

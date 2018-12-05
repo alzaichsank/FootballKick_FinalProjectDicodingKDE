@@ -23,7 +23,7 @@ import android.util.Log
 import android.view.*
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import kotlinx.android.synthetic.main.fragment_list.*
+import kotlinx.android.synthetic.main.fragment_teams_list.*
 import org.jetbrains.anko.startActivity
 import org.json.JSONObject
 
@@ -86,7 +86,7 @@ class FragmentTeam : Fragment(), MatchView {
                 activity?.finish()
                 activity?.startActivity(activity?.intent)
             } else {
-                Snackbar.make(fragment_match_id, getString(R.string.turnOn_internet)
+                Snackbar.make(fragment_team_id, getString(R.string.turnOn_internet)
                         , Snackbar.LENGTH_LONG).show()
             }
         }
@@ -123,7 +123,7 @@ class FragmentTeam : Fragment(), MatchView {
                                     numData += 1
                                 }
                                 Log.d("TAG NUMDATA", numData.toString())
-                                spinner.adapter = ArrayAdapter<String>(context, android.R.layout.simple_spinner_dropdown_item, leagueName)
+                                spinner_team.adapter = ArrayAdapter<String>(context, android.R.layout.simple_spinner_dropdown_item, leagueName)
                             } else {
                             }
                         } catch (e: NullPointerException) {
@@ -140,14 +140,14 @@ class FragmentTeam : Fragment(), MatchView {
             })
         } else {
             showEmptyData()
-            Snackbar.make(fragment_match_id, getString(R.string.turnOn_internet)
+            Snackbar.make(fragment_team_id, getString(R.string.turnOn_internet)
                     , Snackbar.LENGTH_LONG).show()
         }
 
     }
 
     private fun setSpinner() {
-        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+        spinner_team.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
                 idSpinner = listLeageu[position].idLeague
                 setDataToContainer(idSpinner)
@@ -175,9 +175,8 @@ class FragmentTeam : Fragment(), MatchView {
             showLoading()
             presenter.getTeamData(id, object : ServerCallback {
                 override fun onSuccess(response: String) {
-                    if (presenter.isSuccess(response)) {
+                    if ( isVisible && presenter.isSuccess(response)) {
                         try {
-                            if (presenter.isSuccess(response)) {
                                 data = presenter.parsingData(context as Activity, response)
                                 if (data.size < 1) {
                                     showEmptyData()
@@ -185,7 +184,6 @@ class FragmentTeam : Fragment(), MatchView {
                                     getListAdapter()?.setData(data.toMutableList())
                                     hideLoading()
                                 }
-                            }
                         } catch (e: NullPointerException) {
                             showEmptyData()
                         }
@@ -203,7 +201,7 @@ class FragmentTeam : Fragment(), MatchView {
 
         } else {
             showEmptyData()
-            Snackbar.make(fragment_match_id, getString(R.string.turnOn_internet)
+            Snackbar.make(fragment_team_id, getString(R.string.turnOn_internet)
                     , Snackbar.LENGTH_LONG).show()
         }
     }
